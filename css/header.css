@@ -1,3 +1,5 @@
+@import url('animations.css');
+
 .header {
     height: 100svh;
     display: flex;
@@ -22,6 +24,8 @@
     letter-spacing: 36px;
     text-transform: uppercase;
     text-shadow: 1px 1px 6px black;
+
+    animation: moveInRight 1.5s ease-in-out;
 }
 
 .header-logo {
@@ -31,6 +35,8 @@
 
     -webkit-filter: drop-shadow(5px 5px 5px black);
     filter: drop-shadow(5px 5px 5px black);
+
+    animation: moveInLeft 1.5s ease-in-out;
 }
 
 .header-btn-box {
@@ -38,6 +44,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    animation: moveInBottom 1s ease-out .5s;
+    animation-fill-mode: backwards;
 }
 
 .header-btn-box__label {
@@ -73,7 +82,7 @@
     .header-text {
         font-size: 1.25rem;
         line-height: 1.25rem;
-        letter-spacing: 24px;
+        letter-spacing: 12px;
     }
 
     .header-logo {
