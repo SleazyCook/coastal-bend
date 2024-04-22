@@ -1,7 +1,92 @@
 .experience {
-    height: 50vh;
-    background-color: green;
-    color: white;
+    background-image: linear-gradient(116deg, #06b3bb, #0066b1);
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
 
-    padding-top: 45px;
+
+.exp-header {
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.exp-header h2,
+.exp-header h3 {
+    color: white;
+}
+
+.exp-header h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+}
+
+.exp-header h3 {
+    font-size: 19px;
+    line-height: 31px;
+    font-weight: 300;
+    margin: 25px 0 0;
+    margin-bottom: 0;
+    font-family: Ubuntu, sans-serif;
+}
+
+
+.exp-body {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+.exp-card {
+    display: flex;
+    margin-bottom: 30px;
+    min-height: 150px;
+}
+
+.exp-card:nth-child(odd) {
+    margin-right: 48px;
+}
+
+.exp-card__icon-box {
+    margin-right: 12px;
+    min-width: 30px;
+}
+
+.exp-card__icon-box img {
+    height: 36px;
+}
+
+.exp-card__text-box {
+    min-width: 420px;
+}
+
+.exp-card__title {
+    color: white;
+    margin-bottom: 12px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: Cabin, sans-serif;
+    text-align: center;
+}
+
+.exp-card__text-box p {
+    font-size: 14px;
+    color: #c8dfeb;
+    max-width: 420px;
+    text-align: center;
+    line-height: 26px;
+}
+
+@media (max-width: 980px) {
+    .experience {
+        clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    }
+
+    .exp-card:nth-child(odd) {
+        margin-right: 0;
+    }
 }
