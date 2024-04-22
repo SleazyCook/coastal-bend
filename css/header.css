@@ -14,7 +14,6 @@
     margin-top: 0px;
     margin-bottom: 0px;
     font-family: Montserrat, sans-serif;
-    /* color: #038fb6; */
     color: #06b4bb;
     font-weight: bold;
     font-size: 4rem;
@@ -22,7 +21,6 @@
     text-align: center;
     letter-spacing: 36px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 6px #0066b1;
     text-shadow: 1px 1px 6px black;
 }
 
@@ -30,6 +28,9 @@
     height: 14rem;
     margin-top: 1.5rem;
     margin-right: 1.5rem;
+
+    -webkit-filter: drop-shadow(5px 5px 5px black);
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 .header-btn-box {
@@ -45,6 +46,7 @@
     color: #fff;
     font-weight: 400;
     font-size: 1.8rem;
+    text-shadow: 1px 1px 6px black;s
 }
 
 .header-btn {
@@ -64,4 +66,25 @@
 .header-btn:hover {
     transform: translateY(2px);
     box-shadow: none;
+    color: white;
+}
+
+@media (max-width: 767.98px) {
+    .header-text {
+        font-size: 1.25rem;
+        line-height: 1.25rem;
+        letter-spacing: 24px;
+    }
+
+    .header-logo {
+        height: 5rem;        
+    }
+
+    .header-btn-box__label {
+        font-size: 1rem;
+    }
+
+    .header-btn {
+        font-size: .75rem;
+    }
 }

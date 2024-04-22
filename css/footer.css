@@ -128,10 +128,17 @@
         font-size: 16px;
     }
 
-    .footer .footer-menu p {
+    .footer-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .footer-menu p,
+    .footer .footer-menu a {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
+        border: none;
     }
 }
 
