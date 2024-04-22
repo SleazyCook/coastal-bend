@@ -81,6 +81,30 @@
     line-height: 26px;
 }
 
+@media (max-width: 550px) {
+    .exp-header h2 {
+        font-size: 24px;
+    } 
+    
+    .exp-header h3 {
+        font-size: 14px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .exp-card__icon-box {
+        display: none;
+    }
+
+    .exp-card {
+        max-width: 350px;
+    }
+
+    .exp-card__text-box {
+        min-width: 0;
+    }
+}
+
 @media (max-width: 980px) {
     .experience {
         clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
