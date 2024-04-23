@@ -29,6 +29,7 @@
         <link href="css/team.css" rel="stylesheet">
         <link href="css/contact.css" rel="stylesheet">
         <link href="css/footer.css" rel="stylesheet">
+        <link href="css/popup.css" rel="stylesheet">
     </head>
 
     <body data-spy="scroll" data-target=".navbar" data-offset="51">
@@ -49,7 +50,7 @@
                         <a href="#home" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#services" class="nav-item nav-link">Services</a>
-                        <a href="#tech" class="nav-item nav-link">Technology</a>
+                        <a href="#technology" class="nav-item nav-link">Technology</a>
                         <a href="#experience" class="nav-item nav-link">Experience</a>
                         <a href="#team" class="nav-item nav-link">Team</a>
                         <a href="#contact" class="nav-item nav-link">Contact</a>
@@ -80,18 +81,27 @@
 
         <!-- About Start -->
         <div class="about" id="about">
-            About
+            
+            <h2>
+                 <!-- use Natours "Exciting tours for adventurous people section" -->
+
+            <h2>Our motto has always been "Yes We Can". Whatever your needs may be, Coastal Bend Video Services stands ready to go above and beyond your expectations.</h2>
+
+            1.We provide video production and trial support services to attorneys in the South Texas area and beyond.
+            <br />
+            2.Since 1987, our state of the art equipment and cutting edge technology has made us the leader in our field. We are committed to providing our clients the best service possible. We will work late, drop what we are doing, and jump through hoops to meet your needs.
+        </div>
+
+            <!-- Remote Depositions Ready -->
+            Services - Remote Despotions Ready
+
         </div>
         <!-- About End -->
         
 
         <!-- Services Start -->
         <div class="services" id="services">
-            <!-- Animated Cards, 3 -->
-            Services - Animated Cards
 
-            <!-- Remote Depositions Ready -->
-            Services - Remote Despotions Ready
 
             <!-- Services Page -->
             Stuff from Services Page
@@ -100,9 +110,50 @@
         
 
         <!-- Technology Start -->
-        <div class="tech wow fadeInUp" data-wow-delay="0.1s" id="tech">
-            <!-- peruse components from original template for technology -->
-            Technology section goes here
+        <div class="technology" id="technology">
+            <div class="portfolio" id="equipment">
+                <div class="container">
+                    <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+                        <!-- <p>My Portfolio</p> -->
+                        <h2>Equipment</h2>
+                    </div>
+                    <div class="row portfolio-container">
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="portfolio-wrap">
+                                <div class="portfolio-img">
+                                    <img src="img/tech-ipad.png" alt="Image">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>iPad</h3>
+                                    <a class="btn" href="#popup-1">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="portfolio-wrap">
+                                <div class="portfolio-img">
+                                    <img src="img/tech-hd-elmo.png" alt="Image">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>HD Elmo</h3>
+                                    <a class="btn" href="#popup-2" data-lightbox="portfolio">+</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="portfolio-wrap">
+                                <div class="portfolio-img">
+                                    <img src="img/tech-laptop.png" alt="Image">
+                                </div>
+                                <div class="portfolio-text">
+                                    <h3>Laptop</h3>
+                                    <a class="btn" href="#popup-3" data-lightbox="portfolio">+</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Technology End -->
 
@@ -184,7 +235,7 @@
         <div class="team" id="team">
             <div class="container">
                 <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Team</p>
+                    <!-- <p>My Team</p> -->
                     <h2>Expert Team Members</h2>
                 </div>
                 <div class="row">
@@ -197,7 +248,7 @@
                                 <h2>Joe Cook</h2>
                                 <h4>President</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consec adipis elit. Etiam accum lacus
+                                    Joe founded Coastal Bend Video Services in 1987. He was working at a local law firm and observed that video had great potential as a tool for capturing  testimony.                            
                                 </p>
                                 <div class="team-social">
                                     <a class="btn" href="https://www.linkedin.com/in/joe-cook-5a8a6415/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
@@ -334,7 +385,38 @@
             </div>
         </div>
         <!-- Footer End -->
-        
+
+
+        <!-- Popups -->
+        <div class="popup-box">
+            <div class="popup" id="popup-1">
+                <div class="popup__content">
+                    <a href="#equipment" class="popup__close"></a>
+                    <img src="img/tech-ipad.png" />
+                    <p>- Use TrialPad, GoodReader or your favorite app to interact with the witness.<br />
+                        - Visit websites.<br />
+                        - Google Earth for Locations and Intersections.<br />
+                        - Play video clips.<br />
+                        - 3D medical illustrations & Xrays.</p>
+                </div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="popup__content">
+                    <a href="#equipment" class="popup__close"></a>
+                    <img src="img/tech-hd-elmo.png" />
+                    <p>An HD Elmo is utilized to display documents photos or even 3D objects. Our system captures the witness as they view the items on the screen and our end result is in HD clarity.</p>
+                </div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="popup__content">
+                    <a href="#equipment" class="popup__close"></a>
+                    <img src="img/tech-laptop.png" />
+                    <p>Any Laptop with an HDMI or DVI output can be mixed with video of the witness. Trial Presentation software such as Visionary, Sanction or Trial Director can be utilized effectively to make your point. Anything you can view on your laptop can be displayed on the mixed video</p>
+                </div>
+            </div>
+        </div>
         
         <!-- Back to top button -->
         <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
