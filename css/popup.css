@@ -72,3 +72,27 @@
     padding: 1rem 2rem;
     padding-top: 2rem;
 }
+
+
+@media (max-width: 1100px) {
+    .popup__content img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 770px) {
+    .popup__content {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .popup__content {
+        width: 90%;
+    }
+
+    .popup__content p {
+        padding: 1rem 1rem;
+    }
+}
