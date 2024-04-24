@@ -1,10 +1,14 @@
 .technology {
     padding-top: 45px;
+    /* background-image: linear-gradient(116deg, white, grey); */
+    position: relative;
+    z-index: 1;
 }
 
 .tech-header {
     max-width: 710px;
     margin: 0 auto;
+    padding-bottom: 2rem;
 }
 
 .tech-header h2,
@@ -14,17 +18,18 @@
 
 .tech-header h2 {
     font-family: Montserrat, sans-serif;
-    font-size: 32px;
+    font-size: 36px;
+    font-weight: 500;
 }
 
 .tech-header h3 {
-    font-size: 19px;
+    font-size: 28px;
     line-height: 31px;
     font-weight: 400;
     margin: 25px 0 0;
     margin-bottom: 0;
     font-family: Ubuntu, sans-serif;
-    text-align: justify;
+    text-align: center;
 }
 
 .tech-img__laptop {
@@ -42,6 +47,17 @@
     /* border: 2px solid black; */
 }
 
+.tech-flexbox:nth-child(2) {
+    border-top: 2px solid black;
+    padding-top: 2rem;
+}
+
+.tech-flexbox:nth-child(3) {
+    border-top: 2px solid black;
+    padding: 2rem 0;
+    border-bottom: 2px solid black;
+}
+
 .tech-flex__text {
     text-align: center;
     display: flex;
@@ -52,7 +68,7 @@
 
 .tech-flex__img-box {
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 10px;
     min-width: 50%;
 }
 
@@ -63,6 +79,8 @@
 .tech-flex__text p {
     padding: 2rem 1rem;
     font-weight: 400;
+    color: black;
+    text-align: justify; s
 }
 
 @media (max-width: 1150px) {
@@ -87,7 +105,7 @@
 .equipment {
     position: relative;
     padding: 50px 0 50px 0;
-    padding-top: 100px;
+    padding-top: 70px;
 }
 
 .equipment #equipment-filter {
@@ -138,6 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 .equipment .equipment-img img {
