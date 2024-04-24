@@ -1,9 +1,96 @@
-.portfolio {
-    position: relative;
-    padding: 50px 0 50px 0;
+.technology {
+    padding-top: 45px;
 }
 
-.portfolio #portfolio-filter {
+.tech-header {
+    max-width: 710px;
+    margin: 0 auto;
+}
+
+.tech-header h2,
+.tech-header h3 {
+    color: black;
+}
+
+.tech-header h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 32px;
+}
+
+.tech-header h3 {
+    font-size: 19px;
+    line-height: 31px;
+    font-weight: 400;
+    margin: 25px 0 0;
+    margin-bottom: 0;
+    font-family: Ubuntu, sans-serif;
+    text-align: justify;
+}
+
+.tech-img__laptop {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.tech-flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    max-width: 1100px;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+
+.tech-flex__text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tech-flex__img-box {
+    overflow: hidden;
+    border-radius: 25px;
+    min-width: 50%;
+}
+
+.tech-flex__img-box img {
+    width: 100%;
+}
+
+.tech-flex__text p {
+    padding: 2rem 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1150px) {
+    .tech-img__laptop {
+        height: 150px;
+    }
+
+    .tech-flexbox {
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    .tech-flex__img-box {
+        margin: auto;
+    }
+}
+
+/* <<<<<<<<<<<<<<<>>>>>>>>>>>>>> */
+/* <<<<< EQUIPMENT START >>>>>>> */
+/* <<<<<<<<<<<<<<<>>>>>>>>>>>>>> */
+
+.equipment {
+    position: relative;
+    padding: 50px 0 50px 0;
+    padding-top: 100px;
+}
+
+.equipment #equipment-filter {
     padding: 0;
     margin: -15px 0 25px 0;
     list-style: none;
@@ -11,7 +98,7 @@
     text-align: center;
 }
 
-.portfolio #portfolio-filter li {
+.equipment #equipment-filter li {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
@@ -28,24 +115,24 @@
     -moz-transition: ease-out 0.3s;
 }
 
-.portfolio #portfolio-filter li:hover,
-.portfolio #portfolio-filter li.filter-active {
+.equipment #equipment-filter li:hover,
+.equipment #equipment-filter li.filter-active {
     color: #0066b1;
     background: transparent;
     box-shadow: inset 0 0 0 0 #0066b1;
     border-color: #0066b1;
 }
 
-.portfolio .portfolio-item {
+.equipment .equipment-item {
     position: relative;
 }
 
-.portfolio .portfolio-wrap {
+.equipment .equipment-wrap {
     position: relative;
     width: 100%;
 }
 
-.portfolio .portfolio-img {
+.equipment .equipment-img {
     position: relative;
     overflow: hidden;
     display: flex;
@@ -53,7 +140,7 @@
     justify-content: center;
 }
 
-.portfolio .portfolio-img img {
+.equipment .equipment-img img {
     position: relative;
     height: 250px;
     padding: 2rem;
@@ -62,11 +149,11 @@
     transition: .5s;
 }
 
-.portfolio .portfolio-item:hover img {
+.equipment .equipment-item:hover img {
     margin-left: 15px;
 }
 
-.portfolio .portfolio-text {
+.equipment .equipment-text {
     position: relative;
     height: 60px;
     width: calc(100% - 30px);
@@ -77,7 +164,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, .12);
 }
 
-.portfolio .portfolio-text h3 {
+.equipment .equipment-text h3 {
     width: calc(100% - 70px);
     font-size: 18px;
     font-weight: 600;
@@ -86,7 +173,7 @@
     overflow: hidden;
 }
 
-.portfolio .portfolio-text a.btn {
+.equipment .equipment-text a.btn {
     width: 50px;
     height: 50px;
     padding: 0 0 2px 1px;
@@ -97,7 +184,7 @@
     font-weight: 100;
 }
 
-.portfolio .portfolio-item:hover a.btn {
+.equipment .equipment-item:hover a.btn {
     color: #06b3bb;
     background: transparent;
     box-shadow: inset 0 0 0 0 #06b3bb;

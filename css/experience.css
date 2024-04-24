@@ -1,10 +1,13 @@
 .experience {
     background-image: linear-gradient(116deg, #06b3bb, #0066b1);
     clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
-    padding-top: 200px;
+    padding-top: 155px;
     padding-bottom: 150px;
 }
 
+#experience {
+    padding-top: 45px;
+}
 
 .exp-header {
     max-width: 710px;
@@ -29,7 +32,6 @@
     margin-bottom: 0;
     font-family: Ubuntu, sans-serif;
 }
-
 
 .exp-body {
     display: flex;
