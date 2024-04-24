@@ -1,7 +1,94 @@
 .about {
-    height: 50vh;
-    background-color: green;
-    color: white;
+    background-color: var(--color-white);
+    color: black;
+    color: var(--color-blue-dark);
+    padding: 155px 0;
+    margin: -100px 0;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+    font-family: Montserrat, sans-serif;
+}
 
+#about {
     padding-top: 45px;
+}
+
+.about h2, 
+.about h3 {
+    color: var(--color-blue-medium);
+}
+
+.about h2 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.about h3 {
+    border-bottom: 1px solid var(--color-blue-medium);
+}
+
+.about-flexbox {
+    display: flex;
+    padding: 2rem 4rem;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-flex-text {
+    width: 50%;
+}
+
+.about-photos {
+    /* height: 10rem; */
+    width: 50%;
+    margin-left: 3rem;
+}
+
+.about-composition {
+    position: relative;
+}
+
+.about-photo {
+    width: 70%;
+    box-shadow: 0 1.5rem 1.5rem black;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 10;
+    transition: all .2s;
+    outline-offset: 1rem;
+}
+
+.about-photo--1 {
+    left: 0;
+    top: 0rem;
+}
+
+.about-photo--2 {
+    right: -4rem;
+    top: 3.7rem;
+}
+
+.about-photo--3 {
+    left: 20%;
+    top: 10rem;
+}
+
+.about-photo:hover {
+    border-radius: 1rem;
+    transform: scale(1.05) translateY(-.5rem);
+    box-shadow: 0 2.5rem 4rem black;
+    z-index: 11;
+}
+
+@media (max-width: 1250px) {
+    .about-photo {
+        width: 45%;
+    }
+  }
+
+@media (max-width: 720px) {
+    .about {
+        clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    }
 }

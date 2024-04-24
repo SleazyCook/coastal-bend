@@ -61,9 +61,9 @@ li:hover ul#submenu{
         width: 100%;
         padding: 30px 60px;
         /* background: transparent !important; */
-        background-image: linear-gradient(116deg, #06b4bb, #0065b1);
+        background-image: linear-gradient(116deg, var(--color-blue-light), var(--color-blue-medium));
         border-bottom: 1px dashed rgba(256, 256, 256, .2);
-        z-index: 9;
+        z-index: 9999;
     }
     
     .navbar.nav-sticky {
@@ -76,7 +76,7 @@ li:hover ul#submenu{
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #0066b1;
+        color: var(color-blue-medium);
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -99,7 +99,7 @@ li:hover ul#submenu{
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #0066b1;
+        color: var(--color-blue-medium);
         /* text-shadow: 1px 1px 6px #0066b1; */
     }
 }
@@ -111,7 +111,7 @@ li:hover ul#submenu{
     }
     
     .navbar .navbar-brand {
-        color: #0066b1;
+        color: var(--color-blue-medium);
     }
     
     .navbar .navbar-nav {

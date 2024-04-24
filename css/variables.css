@@ -1,0 +1,12 @@
+:root {
+    /* Color - Text */
+    --text-light: #FAF9F6;
+    --text-dark: #004c85;
+    /* Color - Backgrounds */
+    --color-white: #FAF9F6;
+    --color-blue-light: #06b4bb;
+    --color-blue-medium: #0065b1;
+    --color-blue-dark: #004c85;
+    /* Fonts */
+    --font-main: Montserrat, san-serif;
+}
