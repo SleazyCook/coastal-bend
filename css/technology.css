@@ -3,6 +3,8 @@
     /* background-image: linear-gradient(116deg, white, grey); */
     position: relative;
     z-index: 1;
+    background-color: var(--color-white);
+    color: var(--text-dark);
 }
 
 .tech-header {
@@ -12,14 +14,15 @@
 }
 
 .tech-header h2,
-.tech-header h3 {
-    color: black;
+.tech-header h3,
+.tech-flex__text h3 {
+    color: var(--color-blue-medium);
 }
 
 .tech-header h2 {
     font-family: Montserrat, sans-serif;
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .tech-header h3 {
@@ -52,14 +55,14 @@
 }
 
 .tech-flexbox:nth-child(2) {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--color-blue-medium);
     padding-top: 2rem;
 }
 
 .tech-flexbox:nth-child(3) {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--color-blue-medium);
     padding: 2rem 0;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid var(--color-blue-medium);
 }
 
 .tech-flex__text {
@@ -85,7 +88,7 @@
 .tech-flex__text p {
     padding: 2rem 1rem;
     font-weight: 400;
-    color: black;
+    color: var(--text-dark);
     text-align: justify; s
 }
 

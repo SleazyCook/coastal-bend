@@ -117,8 +117,9 @@ a:focus {
     color: var(--color-white);
 }
 
+.back-to-top:hover,
 .back-to-top:hover i {
-    color: #414141;
+    color: var(--color-blue-light);
 }
 
 /*******************************/
@@ -169,6 +170,7 @@ a:focus {
     position: relative;
     font-size: 45px;
     font-weight: 700;
+    color: var(--color-blue-medium);
 }
 
 @media (max-width: 767.98px) {
