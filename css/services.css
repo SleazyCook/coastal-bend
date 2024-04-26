@@ -84,6 +84,13 @@
     width: 100%;
 }
 
+#services-video {
+    border-radius: 10px;
+    margin: .5rem;
+    width: 450px;
+    height: 280px;
+}
+
 #services-img-typewriter {
     -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222);
@@ -112,5 +119,17 @@
     .services-flexbox:nth-child(3),
     .services-flexbox:last-of-type {
         flex-direction: column-reverse;
+    }
+
+    /* #services-video {
+        width: 560;
+        height: 315;
+    } */
+}
+
+@media (max-width: 560px) {
+    #services-video {
+        width: 300px;
+        height: 200px;
     }
 }
