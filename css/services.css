@@ -103,6 +103,10 @@
 }
 
 @media (max-width: 1150px) {
+    .services {
+        clip-path: polygon(0 2%, 100% 0%, 100% 98%, 0% 100%);
+    }
+
     .services-header {
         max-width: 500px;
     }
