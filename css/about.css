@@ -140,7 +140,11 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 450px) {    
+    .about-flexbox {
+        padding: 2rem 0;
+    }
+
     .about-photos {
         display: none;
     }
