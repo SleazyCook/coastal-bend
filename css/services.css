@@ -30,10 +30,10 @@
 .services-header {
     max-width: 1100px;
     text-align: center;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
     margin: 0 auto;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .services-flex__text {
